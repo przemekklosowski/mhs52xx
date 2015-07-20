@@ -2924,18 +2924,40 @@ Startup sequence
 \end_layout
 
 \begin_layout Enumerate
-Connect the provided 5V DC power supply.
+Connect the provided 5V DC power supply and turn on the instrument using
+ the back panel power switch.
  
 \end_layout
 
 \begin_layout Enumerate
-Initially, the LCD displays the company name and version number and serial
- number of the instrument.
+Initially, the LCD displays the instrument model and version number (e.g.
+ 
+\family typewriter
+\series bold
+MHS-5225A R4.10
+\family default
+\series default
+), company name (e.g.
+ 
+\family typewriter
+\series bold
+MingHe (c) 2015
+\family default
+\series default
+) and serial number of the instrument (e.g.
+ 
+\family typewriter
+\series bold
+P/N: 52A0123
+\family default
+\series default
+).
  
 \end_layout
 
 \begin_layout Enumerate
-After startup, the instrument enters the main interface.
+After startup, the instrument enables the output and activates the front
+ panel user interface.
 \end_layout
 
 \begin_layout Subsection
@@ -2949,120 +2971,185 @@ This section will detail how to operate the instrument.
 \end_layout
 
 \begin_layout Subsubsection
-Selecting the CH1 waveform
+Selecting CH1 waveform
 \end_layout
 
 \begin_layout Standard
-Figure 2-3
+\align center
+\begin_inset Graphics
+	filename im/f:24k-wave:sine.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-In the main interface shown in Figure 2-3, when the "*" in the first line,
- click on the button to adjust the output waveform type, the output waveform
- types are sine, square, triangle, rising sawtooth, descending sawtooth
- and 16 groups arbitrary waveform.
- Long key it is possible to return ahead of the original set of waveforms,
- if you want to quickly adjust the output waveform can click on, and then
- a "*" to switch to the second row, rotate "ADJUST" knob, you can quickly
- switch the output waveform types.
+Normally, the "*" indicator is in the first line.
+ Click on the button to adjust the output waveform type.
+ When the 
+\begin_inset Quotes eld
+\end_inset
+
+*
+\begin_inset Quotes erd
+\end_inset
+
+ indicator is in the second line, change the output waveform type.
+ Available waveforms are: sine, square, triangle, rising sawtooth, descending
+ sawtooth and 16 arbitrary waveforms, preloaded by the manufacturer.
+ Those 16 waveforms can also be downloaeded from the connected PC host by
+ the user.
+ Long key press restores the original set of waveforms.
+ 
+\end_layout
+
+\begin_layout Standard
+To quickly adjust the output waveform move the "*" indicator to the second
+ row, and rotate "ADJUST" knob to rapidly switch the output waveform types.
 \end_layout
 
 \begin_layout Subsubsection
-Setting the CH1 frequency
+Setting CH1 frequency
 \end_layout
 
 \begin_layout Standard
-In the main interface, shown in Figure 2-4 when the "*" in the first line,
- by adjusting or moving the cursor to adjust the frequency step value, and
- to adjust the frequency of the output waveform by turning the "ADJUST"
- knob.
+When the "*" indicator is in the first line, move the cursor to the appropriate
+ decimal digit and turn the "ADJUST" knob to adjust the frequency of the
+ output waveform.
 \end_layout
 
 \begin_layout Standard
-Figure 2-4
+\align center
+\begin_inset Graphics
+	filename im/f-wave:square.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Setting the CH1 output amplitude
+Setting CH1 output amplitude
 \end_layout
 
 \begin_layout Standard
-In the main interface, press the button, the interface will be in the magnitude
- of a cursor set, click or key it is possible to move the cursor position,
- rotate "ADJUST" knob to adjust the amplitude of the output waveform, as
- shown below:
+Press the signal amplitude key, move the cursor to the appropriate decimal
+ digit and turn the "ADJUST" knob to adjust the amplitude of the output
+ waveform
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The amplitude (05.00V in this case) refers to Vp-p, or peak to peak output
+ signal voltage
+\end_layout
+
+\end_inset
+
+, as shown below:
 \end_layout
 
 \begin_layout Standard
-Figure 2-5
+\align center
+\begin_inset Graphics
+	filename im/f-wave:5V.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Wherein, 05.00V refers peak to peak.
- In this range setting function mode, the maximum amplitude of 15V, minimum
- 0.15V, the minimum step value 0.01 (10mV); the state of Figure 2-6, press
- the enter signal -20dB attenuation state, the output signal a maximum of
- 1.500V, the minimum 0.015V, the minimum step is 0.001V (1mV).
+In this range setting function mode, the maximum amplitude is 15V, and the
+ minimum amplitude is 0.15V.
+ The minimum step value is 0.01V (10mV).
+ If the -20dB output attenuator is selected, the output signal a has maximum
+ value of 1.500V, the minimum value of 0.015V, and the minimum step is 0.001V
+ (1mV).
 \end_layout
 
 \begin_layout Standard
-Figure 2-6
+\align center
+\begin_inset Graphics
+	filename im/f-wave:1.5V.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Setting the CH1 voltage offset
+Setting CH1 voltage offset
 \end_layout
 
 \begin_layout Standard
-In the main interface, press or to adjust bias adjustment options shown
- in Figure 2-7, then click on the "*" symbol to switch to the second row,
- and click or to move the cursor, then
+Change the mode to bias adjustment, then move the "*" symbol to the second
+ row, and move the cursor to the desired digit, then turn the "ADJUST" knob
+ to adjust the offset parameter.
 \end_layout
 
 \begin_layout Standard
-"ADJUST" knob to adjust the offset parameter.
-\end_layout
+\align center
+\begin_inset Graphics
+	filename im/f-offs:50.jpeg
+	height 1.5cm
 
-\begin_layout Standard
-Figure 2-7
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Setting the CH1 duty cycle
+Setting CH1 duty cycle
 \end_layout
 
 \begin_layout Standard
-In the main interface, press or to adjust the duty cycle adjustment options
- shown in Figure 2-8, then click on the "*" symbol to switch to the second
- row, and click or to move the cursor, then
+Change the mode to adjust the duty cycle, then move the "*" symbol to the
+ second row, move the cursor to the desired decimal digit, then turn the
+ "ADJUST" knob to adjust the duty cycle parameter.
 \end_layout
 
 \begin_layout Standard
-"ADJUST" knob to adjust the offset parameter.
+\align center
+\begin_inset Graphics
+	filename im/f-duty:99.jpeg
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Adjusting phase difference between channels
 \end_layout
 
 \begin_layout Standard
-Figure 2-8
+Change the mode to adjust the phase, then move the "*" symbol to switch
+ to the second row, move the cursor to the desired decimal position , then
+ turn the
 \end_layout
 
 \begin_layout Standard
-5, setting the phase difference between the two channels
+"ADJUST" knob to adjust the phase parameter.
+ NOTE: the phase difference only makes sense if CH1 and CH2 output the same
+ frequency.
 \end_layout
 
 \begin_layout Standard
-In the main interface, press or to adjust the phase of adjustment options
- shown in Figure 2-9, then click on the "*" symbol to switch to the second
- row, and click or to move the cursor, then
-\end_layout
+\align center
+\begin_inset Graphics
+	filename im/f-phase:180.jpeg
+	height 1.5cm
 
-\begin_layout Standard
-"ADJUST" knob to adjust the bias parameter, you need special note is the
- phase difference only in the same frequency CH1 and CH2 frequency when
- it makes sense.
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Figure 2-9
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3070,14 +3157,20 @@ Setting the display unit of frequency
 \end_layout
 
 \begin_layout Standard
-In the main interface, press or to adjust the frequency of the display unit
- adjustment options shown in Figure 2-9, then click on the "*" symbol to
- switch to the second row, and then click on the switching frequency units
- of Hz, kHz, MHz.
+Change the mode to adjust the frequency units of the display, then move
+ the "*" symbol to the second row, and then select the frequency units of
+ Hz, kHz, or MHz.
 \end_layout
 
 \begin_layout Standard
-Figure 2-10
+\align center
+\begin_inset Graphics
+	filename im/f-freq:hz.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3087,19 +3180,25 @@ Tracking function
 \begin_layout Standard
 Tracking function is used to synchronize the frequency of CH2 to CH1, and
  users can set the amplitude of the tracking and duty track.
- In the main interface, press or to adjust the tracking options shown in
- Figure 2-11, then click on the "*" symbol to switch to the second row,
- and then click to switch ON or OFF state.
- When the tracking function is turned frequency automatic tracking frequency
- channel CH2 CH1 channel.
- Also, before turning if tracing, CH1 and CH2 channel amplitude is the same
+ In the main interface, Select the tracking option as s shown below, then
+ move the "*" symbol to the second row, and then select TRACE ON or OFF.
+ When the tracking function is turned on, output frequency of channel CH2
+ automatically tracks the frequency of channel CH1.
+ Also, before turning tracing on, CH1 and CH2 channel amplitude is the same
  tracking feature is turned on CH1 and CH2 frequency automatic tracking;
  if the duty is the same as CH1 and CH2 are turned on after tracing CH1
  and CH2 account Empty than automatic tracking.
 \end_layout
 
 \begin_layout Standard
-Figure 2-11
+\align center
+\begin_inset Graphics
+	filename im/f-trace:on.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3107,15 +3206,20 @@ External signal input port selection
 \end_layout
 
 \begin_layout Standard
-Select the input signal Ext.IN for input AC signal, select TTL.IN for selecting
- the input digital signal wave.
- In the main interface, press or to adjust to the input port selection page,
- and then click on the "*" symbol to switch to the second row, and then
- click the button to switch the input port selection Ext.IN or TTL.IN.
+Select the input port selection mode, then move the "*" symbol to the second
+ row, and switch the input port selection to Ext.IN for front panel AC signal
+ input, or to TTL.IN for rear panel TTL input.
 \end_layout
 
 \begin_layout Standard
-Figure 2-12
+\align center
+\begin_inset Graphics
+	filename im/f-msr:ext.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3127,11 +3231,8 @@ Several parameters of the input signal can be measured.
 \end_layout
 
 \begin_layout Itemize
-In the main interface, press or to adjust the measurement function selection
- page shown in Figure 2-13, then click on the "*" symbol to switch to the
- second row, and then click the button to switch the output port selection
- measurement object.
- 
+Choose the measurement function selection, then move the "*" symbol to the
+ second row, and then click the button to switch the measured quantity:
 \end_layout
 
 \begin_deeper
@@ -3162,97 +3263,131 @@ DUTY (duty cycle)
 
 \end_deeper
 \begin_layout Itemize
-determine the measurement object, click, enter gate time selection page
- as shown below:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-click the button to select a different gate time 10S, 1S, 0.1S, 0.01S, different
- gate time on the frequency measurement accuracy and measurement speed.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-determine the gate time, click, enter the measurement results display.
- The page can display the input measurement results, such as frequency,
- duty cycle, pulse width, and so the cycle parameters.
+Select gate time selection page, and choose one of available gate times:
+ 10s, 1s, 0.1s, or 0.01s.
+ Different gate times trade off frequency measurement accuracy and measurement
+ speed.
 \end_layout
 
 \begin_layout Standard
-Figure 2-14
+\align center
+\begin_inset Graphics
+	filename im/f-gate:1s.jpeg
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The instrument display will show input measurement results.
 \end_layout
 
 \begin_layout Subsubsection
 Sweep function
 \end_layout
 
-\begin_layout Standard
-(1) is adjusted to start frequency sweep function settings page, and then
- adjust the start frequency 5kHz.
- As shown below:
+\begin_layout Itemize
+Select the initial sweep frequency settings function, and then adjust the
+ start frequency, e.g.
+ 5kHz as shown below:
 \end_layout
 
 \begin_layout Standard
-Figure 2-15
+\align center
+\begin_inset Graphics
+	filename im/f-setsweep:freq1.jpeg
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Next, select the final sweep frequency function, and then adjust the final
+ frequency, e.g.
+ 10kHz as shown below:
 \end_layout
 
 \begin_layout Standard
-(2) Then click into the cut-off frequency sweep function settings page,
- and then adjust the cutoff frequency of 10kHz.
- As shown below
+\align center
+\begin_inset Graphics
+	filename im/f-setsweep:freq2.jpeg
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Next, select the sweep time setting mode, and then move the "*" indicator
+ to the second row, and rotate "ADJUST" knob to adjust the sweep time between
+ 1s and 600s, e.g.
+ to 10s as shown below:
 \end_layout
 
 \begin_layout Standard
-Figure 2-16
+\align center
+\begin_inset Graphics
+	filename im/f-sweeptime:10s.jpeg
+	height 1.5cm
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(3) Then click on the Settings page to enter the sweep time, and then click
- on the "*" are switched to the second row, rotate "ADJUST" knob to adjust
- the sweep time, frequency arbitrarily set the time range between 1-600S,
- as shown below Setting Sweep Time 10S:
+\begin_layout Itemize
+Next, enter the sweep mode selection screen, and choose between LINE (linear
+ frequency sweep) and LOG (logarithmic sweep).
 \end_layout
 
-\begin_layout Standard
-(4) Then click into the sweep mode selection screen shown in Figure 2-22,
- click on the button to select the frequency scanning.
- There are two ways to scan frequency, LINE (linear scanning) and LOG (logarithm
-ic sweep).
-\end_layout
-
-\begin_layout Standard
-(5) determine the scan mode, click to enter the sweep control page, then
- click the button to turn on or turn off sweep function.
+\begin_layout Itemize
+Finally, enter the sweep control page, then turn on or turn off sweep function.
 \end_layout
 
 \begin_layout Subsubsection
-Storage / loading capabilities
+Parameter storage and loading
+\end_layout
+
+\begin_layout Itemize
+To save parameters for later use, select the parameter save function, and
+ then move the "*" indicator to the second row, then rotate "ADJUST" knob
+ to adjust the save location.
+ This instrument has a total of 10 parameter storage locations, M0-M9.
+ On power on, the instrument loads parameter set M0.
 \end_layout
 
 \begin_layout Standard
-In the main interface, press or to enter the parameter to save the page,
- and then click on the press the key combination of "*" consumption is adjusted
- to the second row in Figure 2-11, then rotate "ADJUST" knob to adjust the
- save location, this machine a total of 10 groups parameter holds addresses
- M0-M9.
- Machine is turned on by default to read M0 address parameters.
+\align center
+\begin_inset Graphics
+	filename im/f-save:m0.jpeg
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+To restore saved parameters, chose the parameter load function, then move
+ the "*" indicator to the second row, and rotate the "ADJUST" knob to adjust
+ the location to one of the 10 available saved sets, M0-M9.
+ On power on, the instrument loads parameter set M0.
 \end_layout
 
 \begin_layout Standard
-Figure 2-16
-\end_layout
+\align center
+\begin_inset Graphics
+	filename im/f-load:m0.jpeg
+	height 1.5cm
 
-\begin_layout Standard
-In the main interface, press or to enter the parameter to call up the page,
- press the key combination and then click on the "*" consumption is adjusted
- to the second row in Figure 2-12, then rotate "ADJUST" knob to adjust the
- save location, the machine 10 set parameters are saved addresses M0-M9.
- Machine is turned on by default to read M0 address parameters.
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Figure 2-17
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3284,21 +3419,22 @@ The working temperature is -10..50 ℃, Storage temperature -20..70 ℃, in a dr
 \end_layout
 
 \begin_layout Enumerate
-Do not attempt to disassemble the equipment, destroy the package will void
- the warranty.
- There are no user-serviceable parts; repairs to be done only by authorized
+Do not attempt to disassemble the equipment, destroying the package will
+ void the warranty.
+ There are no user-serviceable parts; repairs are to be done only by authorized
  repair outlets or by returning the item to factory.
 \end_layout
 
 \begin_layout Enumerate
-Avoid lighted candles, a water cup, corrosive chemicals and other unsafe
- items placed on the surface of the instrument, so as not to cause damage
- to the instrument.
+Do not allow lighted candles, liquid-filled containers, corrosive chemicals
+ and other unsafe items to be placed on the surface of the instrument, so
+ as not to cause damage to the instrument.
 \end_layout
 
 \begin_layout Enumerate
-The display screen are easy to pollution, fragile device, do not touch the
- hand as well as external and collision, avoid children play this instrument.
+The instrument is a fragile and sensitive electronic equipment; do not scratch,
+ touch, press or bump.
+ Avoid child play with this instrument.
 \end_layout
 
 \begin_layout Enumerate
@@ -3307,8 +3443,8 @@ Do not move the instrument to avoid severe irreparable damage to the internal
 \end_layout
 
 \begin_layout Enumerate
-Exclude the above problem re-power the instrument still does not work, please
- contact your supplier!
+If the above conditions were observed, and the instrument still does not
+ work after cycling the power off and on, please contact your supplier!
 \end_layout
 
 \begin_layout Section
@@ -3321,32 +3457,87 @@ Thank you for purchasing Ming Wo electronic products.
  the following few simple steps:
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Read the instructions for safe and efficient use.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Read the warranty terms and conditions.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\shape italic
+\size large
 Warranty conditions:
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "97col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 Instrument is warrantied for a period of one year from the shipment date.
  During the warranty period, the company will repair or replace equipment
  selected according to the situation.
  For service, please send the product to the company.
 \end_layout
 
-\begin_layout Paragraph
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
 The following conditions are not covered under warranty:
 \end_layout
 
-\begin_layout Paragraph
-User operation or improper maintenance; using the software or user interface
- to provide their own; unauthorized modification to the instrument.
+\begin_layout Itemize
+User operation or improper maintenance
+\end_layout
+
+\begin_layout Itemize
+using the software or user interface to provide their own
+\end_layout
+
+\begin_layout Itemize
+unauthorized modification to the instrument
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -3405,8 +3596,9 @@ hardware handshake
 \end_layout
 
 \begin_layout Standard
-Manufacturer-provided software probes the device with the following commands
- (presumably to probe different device types in the future):
+Manufacturer-provided software initiates the communication with the device
+ with the following commands (presumably to probe different device types
+ in the future):
 \end_layout
 
 \begin_layout Description
