@@ -3767,6 +3767,76 @@ unauthorized modification to the instrument
 
 \begin_layout Section
 \start_of_appendix
+Instrument internals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename im/mobo-diagram.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+LCMX02-1200HC lattice FPGA
+\end_layout
+
+\begin_layout Enumerate
+STM8S00 controller
+\end_layout
+
+\begin_layout Enumerate
+R-2R resistor ladder DAC
+\end_layout
+
+\begin_layout Enumerate
+LM358 opamps
+\end_layout
+
+\begin_layout Enumerate
+AD603AR variable gain output amplifiers
+\end_layout
+
+\begin_layout Enumerate
+74HC140 TTL driver
+\end_layout
+
+\begin_layout Enumerate
+CH340G USB-serial interface
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+MHS-5200A main circuit board
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 MHS-5200A serial protocol
 \end_layout
 
