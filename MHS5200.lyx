@@ -3,6 +3,7 @@
 \begin_document
 \begin_header
 \textclass article
+\options 11pt
 \use_default_options false
 \maintain_unincluded_children false
 \language english
@@ -187,9 +188,9 @@ When you get a new MHS-5200A Series dual-channel DDS signal generator, it
 \end_layout
 
 \begin_layout Enumerate
-Check for transportation damage of packing or bubble bag cushions.
+Check for transportation damage to the shipping box and packing materials.
  If there is serious damage, keep them until the machine and accessories
- passed the test.
+ have passed the acceptance test.
 \end_layout
 
 \begin_layout Enumerate
@@ -235,8 +236,8 @@ Instrument introduction
 \end_layout
 
 \begin_layout Standard
-MHS-5200A series instruments using large scale integrated circuits and high-spee
-d FPGA MCU microprocessor.
+MHS-5200A series instruments use large scale integrated circuits: a high-speed
+ FPGA and a microcontroller unit.
  The internal circuitry uses surface mount technology for greatly enhanced
  noise immunity and service life.
  
@@ -245,8 +246,8 @@ d FPGA MCU microprocessor.
 \begin_layout Standard
 Display interface uses a 16x2 character LCD display, divided into two lines.
  The top line shows the current frequency, while the following line displays
- additional parameters or function variable corresponding to the user's
- front panel key selections.
+ additional parameters and settings, corresponding to the front panel key
+ selections.
  
 \end_layout
 
@@ -254,7 +255,7 @@ Display interface uses a 16x2 character LCD display, divided into two lines.
 This instrument performs signal generation, waveform scanning, as well as
  parameter measurement.
  It provides a great test and measurement solution to electronic engineers
- and technicians in teaching and research laboratories and production lines.
+ and technicians in teaching and research laboratories and production facilities.
 \end_layout
 
 \begin_layout Subsection
@@ -262,8 +263,8 @@ Model description
 \end_layout
 
 \begin_layout Standard
-This series of instruments in four models, the main difference is the maximum
- frequency sine wave, as follows:
+This series of instruments includes four models, differentiated by the maximum
+ frequency of the output sine wave:
 \end_layout
 
 \begin_layout Description
@@ -295,7 +296,7 @@ Dual output, with adjustable phase differential
 \end_layout
 
 \begin_layout Itemize
-Up to 600 seconds of linear and logarithmic sweep function
+Linear and logarithmic sweep function, with up to 600 seconds duration
 \end_layout
 
 \begin_layout Itemize
@@ -322,17 +323,17 @@ Sophisticated -20dB attenuator enables amplitude resolution of  1mV
 \end_layout
 
 \begin_layout Itemize
-Pulse duty cycle adjust accurate to 0.1%
+Pulse duty cycle adjustment, accurate to 0.1%
 \end_layout
 
 \begin_layout Itemize
-Four variable phase difference TTL output
+Four variable phase difference TTL outputs
 \end_layout
 
 \begin_layout Itemize
 Measurement capability.
- Possible measurements: frequency, period, positive and negative pulse width,
- duty cycle and counting function;
+ Possible measurements are: frequency, period, positive and negative pulse
+ width, duty cycle and counting function;
 \end_layout
 
 \begin_layout Itemize
@@ -352,7 +353,8 @@ Powerful communications features.
 
 \begin_layout Itemize
 When connected to the PC, the computer can be used to control the instrument.
- The user can edit arbitrary utput waveforms, and  download it to the instrument
+ The user can edit arbitrary output waveforms, and  download it to the instrumen
+t
 \end_layout
 
 \begin_layout Itemize
@@ -365,42 +367,17 @@ The instrument can be equipped with an additional power module, to enable
 Technical specifications
 \end_layout
 
+\begin_layout Subsubsection
+Key parameters
+\end_layout
+
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="3">
+<lyxtabular version="3" rows="23" columns="3">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="right" valignment="top" width="3cm">
+<column alignment="right" valignment="top" width="3.5cm">
 <column alignment="left" valignment="top" width="5cm">
 <column alignment="left" valignment="top" width="5.3cm">
-<row>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Key Features
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row>
 <cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -443,7 +420,7 @@ MHS-5200-25M 0Hz..25MHz
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -472,7 +449,7 @@ Square wave
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -501,7 +478,7 @@ Triangle wave
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -530,7 +507,7 @@ Sawtooth
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -559,7 +536,7 @@ Arbitrary waveform
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1097,44 +1074,19 @@ Phase resolution
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="30" columns="3">
-<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="middle" width="2cm">
-<column alignment="left" valignment="top" width="4cm">
-<column alignment="left" valignment="top" width="5cm">
-<row>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Subsubsection
 Detailed specifications
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="29" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="2cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="7cm">
 <row>
-<cell multirow="3" alignment="left" valignment="middle" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1156,11 +1108,11 @@ Harmonic content
 \begin_inset Text
 
 \begin_layout Plain Layout
-40dBc(<1MHz),
+40dBc (below 1MHz),
 \end_layout
 
 \begin_layout Plain Layout
-35dBc(1MHz ..
+35dBc (1MHz ..
  20MHz)
 \end_layout
 
@@ -1168,7 +1120,7 @@ Harmonic content
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1190,7 +1142,7 @@ Distortion
 \begin_inset Text
 
 \begin_layout Plain Layout
-<0.8%(20Hz ..
+<0.8% (20Hz ..
  20KHz)
 \end_layout
 
@@ -1386,7 +1338,8 @@ Arbitrary waveform
 \begin_inset Text
 
 \begin_layout Plain Layout
-Number of stored waveforms
+No.
+ of waveforms
 \end_layout
 
 \end_inset
@@ -1395,7 +1348,7 @@ Number of stored waveforms
 \begin_inset Text
 
 \begin_layout Plain Layout
-16 groups
+16 stored waveforms
 \end_layout
 
 \end_inset
@@ -1424,7 +1377,7 @@ Memory depth/group
 \begin_inset Text
 
 \begin_layout Plain Layout
-1KB/16groups
+1KB/16 groups
 \end_layout
 
 \end_inset
@@ -1512,7 +1465,7 @@ Scan range
 \begin_inset Text
 
 \begin_layout Plain Layout
-Determined by the sweep parameter settings
+Adjustable sweep settings
 \end_layout
 
 \end_inset
@@ -1523,7 +1476,8 @@ Determined by the sweep parameter settings
 \begin_inset Text
 
 \begin_layout Plain Layout
-External measurements
+External measure\SpecialChar \-
+ments
 \end_layout
 
 \end_inset
@@ -1532,8 +1486,7 @@ External measurements
 \begin_inset Text
 
 \begin_layout Plain Layout
-Frequency range vs.
- gate time
+Frequency range (for several selectable gate times)
 \end_layout
 
 \end_inset
@@ -1660,7 +1613,8 @@ Input voltage range
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.5Vp-p - 20Vp-p
+0.5Vp-p ..
+ 20Vp-p
 \end_layout
 
 \end_inset
@@ -1718,7 +1672,7 @@ Counting
 \begin_inset Text
 
 \begin_layout Plain Layout
-Manually
+Manual
 \end_layout
 
 \end_inset
@@ -1738,7 +1692,7 @@ Manually
 \begin_inset Text
 
 \begin_layout Plain Layout
-Positive and negative pulse width measurement
+Positive and negative pulse width 
 \end_layout
 
 \end_inset
@@ -1747,11 +1701,7 @@ Positive and negative pulse width measurement
 \begin_inset Text
 
 \begin_layout Plain Layout
-10ns resolution,
-\end_layout
-
-\begin_layout Plain Layout
-measurement range 10s
+10ns resolution, range 10s
 \end_layout
 
 \end_inset
@@ -1771,7 +1721,7 @@ measurement range 10s
 \begin_inset Text
 
 \begin_layout Plain Layout
-Periodic measurements
+Period
 \end_layout
 
 \end_inset
@@ -1780,11 +1730,7 @@ Periodic measurements
 \begin_inset Text
 
 \begin_layout Plain Layout
-20ns resolution,
-\end_layout
-
-\begin_layout Plain Layout
-measurement range 20s
+20ns resolution, range 20s
 \end_layout
 
 \end_inset
@@ -1804,7 +1750,7 @@ measurement range 20s
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duty Cycle measurement
+Duty Cycle 
 \end_layout
 
 \end_inset
@@ -2031,7 +1977,8 @@ DC
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dimensions
+Dimen\SpecialChar \-
+sions
 \end_layout
 
 \end_inset
@@ -2133,7 +2080,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/front.png
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -2150,7 +2097,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/back.png
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -2204,7 +2151,7 @@ LCD1602 LCD
 \begin_inset Text
 
 \begin_layout Plain Layout
-CH2 output interface
+CH2 output connector
 \end_layout
 
 \end_inset
@@ -2242,7 +2189,7 @@ Status Indicator
 \begin_inset Text
 
 \begin_layout Plain Layout
-Switch
+Power switch
 \end_layout
 
 \end_inset
@@ -2280,7 +2227,7 @@ Operation buttons
 \begin_inset Text
 
 \begin_layout Plain Layout
-DV5V power input interface
+5VDC power input
 \end_layout
 
 \end_inset
@@ -2300,7 +2247,7 @@ DV5V power input interface
 \begin_inset Text
 
 \begin_layout Plain Layout
-Knob
+Rotary knob selector
 \end_layout
 
 \end_inset
@@ -2318,7 +2265,7 @@ Knob
 \begin_inset Text
 
 \begin_layout Plain Layout
-USB communication interface
+USB connector
 \end_layout
 
 \end_inset
@@ -2338,7 +2285,7 @@ USB communication interface
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ext.In input interface
+Ext.In input connector
 \end_layout
 
 \end_inset
@@ -2356,7 +2303,7 @@ Ext.In input interface
 \begin_inset Text
 
 \begin_layout Plain Layout
-TTL input / output interface
+TTL input / output connector
 \end_layout
 
 \end_inset
@@ -2376,7 +2323,7 @@ TTL input / output interface
 \begin_inset Text
 
 \begin_layout Plain Layout
-CH1 output interface
+CH1 output connector
 \end_layout
 
 \end_inset
@@ -2478,7 +2425,7 @@ status open
 <lyxtabular version="3" rows="10" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top">
-<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="70col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -2486,7 +2433,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/left.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2499,7 +2446,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Move the cursor left, or change the value of current parameter
+Move the cursor left, or change the current parameter value
 \end_layout
 
 \end_inset
@@ -2512,7 +2459,7 @@ Move the cursor left, or change the value of current parameter
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/right.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2525,7 +2472,7 @@ Move the cursor left, or change the value of current parameter
 \begin_inset Text
 
 \begin_layout Plain Layout
-Move the cursor right, or change the parameter value
+Move the cursor right, or change the current parameter value
 \end_layout
 
 \end_inset
@@ -2538,7 +2485,7 @@ Move the cursor right, or change the parameter value
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/pgUp.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2551,7 +2498,7 @@ Move the cursor right, or change the parameter value
 \begin_inset Text
 
 \begin_layout Plain Layout
-Page up
+Next menu selection
 \end_layout
 
 \end_inset
@@ -2564,7 +2511,7 @@ Page up
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/pgDn.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2577,7 +2524,7 @@ Page up
 \begin_inset Text
 
 \begin_layout Plain Layout
-Page down
+Previous menu selection
 \end_layout
 
 \end_inset
@@ -2590,7 +2537,7 @@ Page down
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/ok.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2603,7 +2550,7 @@ Page down
 \begin_inset Text
 
 \begin_layout Plain Layout
-OK button
+Confirmation button; also, changes the parameter in the current menu selection
 \end_layout
 
 \end_inset
@@ -2616,7 +2563,7 @@ OK button
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/shift-left.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2629,7 +2576,8 @@ OK button
 \begin_inset Text
 
 \begin_layout Plain Layout
-Channel switch (CH1/CH2)
+Channel selector.
+ Channel setting reflected by CH1/CH2 LED indicator
 \end_layout
 
 \end_inset
@@ -2642,7 +2590,7 @@ Channel switch (CH1/CH2)
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/shift-right.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2655,7 +2603,8 @@ Channel switch (CH1/CH2)
 \begin_inset Text
 
 \begin_layout Plain Layout
-select mode; "*" display indicates current selection
+Focus select between the first and second display line, as indicated by
+ the ✱ symbol
 \end_layout
 
 \end_inset
@@ -2668,7 +2617,7 @@ select mode; "*" display indicates current selection
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/shift-pgUp.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2694,7 +2643,7 @@ Waveform shape selection
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/shift-pgDn.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2720,7 +2669,7 @@ Waveform amplitude adjustment
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename im/shift-ok.jpeg
-	height 1cm
+	height 2em
 
 \end_inset
 
@@ -2733,7 +2682,7 @@ Waveform amplitude adjustment
 \begin_inset Text
 
 \begin_layout Plain Layout
-turn the output on or off
+Output enable/disable; status is indicated by the red front panel OUT LED
 \end_layout
 
 \end_inset
@@ -2762,10 +2711,6 @@ name "fig:frontKeys"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2813,7 +2758,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename im/f:10k-wave:sine.jpeg
+	filename im/f:24k-wave:sine.jpeg
 	width 70text%
 
 \end_inset
@@ -2868,7 +2813,7 @@ Frequency display
 \begin_inset Text
 
 \begin_layout Plain Layout
-Selected operation / parameter display
+Selected menu operation / parameter display
 \end_layout
 
 \end_inset
@@ -2913,6 +2858,13 @@ name "fig:display"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+The ✱ symbol indicates which values will be modified by they arrow keys
+ and the adjustment knob.
+ In multi-digit parameter values, the current selected digit is indicated
+ by an underline.
 \end_layout
 
 \begin_layout Section
@@ -2965,19 +2917,117 @@ Operating instructions
 \end_layout
 
 \begin_layout Standard
-This section will detail how to operate the instrument.
- It should be noted that operations on instrument channel CH1, described
- in section 1-6, can be similarly performed on channel CH2.
+This section will detail how to operate the instrument using front panel
+ keys, the rotary selector and the LCD display.
+ 
+\end_layout
+
+\begin_layout Standard
+One of two green front panel LED indicators, CH1 and CH2, will be lit, to
+ indicate which channel's parameters are being changed.
+ The selected channel can be changed by the front panel key 
+\begin_inset Graphics
+	filename im/shift-left.jpeg
+	height 1.2em
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The ✱ indicator on the LCD display shows which parameter is being changed.
+ Initially, it is in the first display line, and the arrow keys and rotary
+ knob change the signal frequency value.
+ The PgUp/PgDn keys change the second line to display the values of other
+ instrument parameters, but those values cannot be changed unless the ✱
+ indicator is moved to the second line, e.g.
+ by pressing the 
+\begin_inset Graphics
+	filename im/shift-right.jpeg
+	height 1.2em
+
+\end_inset
+
+ key.
+\end_layout
+
+\begin_layout Standard
+The primary functions, signal waveform and amplitude (Sec.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Selecting-CH1-waveform"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Setting-CH1-frequency"
+
+\end_inset
+
+), have their own key selectors; other functions are selected by moving
+ through the menu selections by the PgUp and PgDn keys, in the following
+ order:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "85col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+\series bold
+WAVE → AMPL → OFFS → DUTY → PHASE → TRACE → FREQ-UNIT → INVERT → BURST →
+ MSR-SEL → MSR-MODE → GATE-TIME →
+\family default
+\series default
+ measurement result
+\family typewriter
+\series bold
+ → SET SWEEP FREQ1 → SET SWEEP FREQ2 → SWEEP TIME → SWEEP MODE → SWEEP →
+ SAVE → LOAD
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Selecting CH1 waveform
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Selecting-CH1-waveform"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename im/f:24k-wave:sine.jpeg
+	filename im/f:10k-wave:sine.jpeg
 	height 1.5cm
 
 \end_inset
@@ -2986,38 +3036,61 @@ Selecting CH1 waveform
 \end_layout
 
 \begin_layout Standard
-Normally, the "*" indicator is in the first line.
- Click on the button to adjust the output waveform type.
- When the 
+Press the 
+\begin_inset Graphics
+	filename im/shift-pgUp.jpeg
+	height 1.2em
+
+\end_inset
+
+ button and adjust the output waveform type by turning the 
 \begin_inset Quotes eld
 \end_inset
 
-*
+ADJUST
 \begin_inset Quotes erd
 \end_inset
 
- indicator is in the second line, change the output waveform type.
+ knob.
  Available waveforms are: sine, square, triangle, rising sawtooth, descending
  sawtooth and 16 arbitrary waveforms, preloaded by the manufacturer.
- Those 16 waveforms can also be downloaeded from the connected PC host by
- the user.
- Long key press restores the original set of waveforms.
- 
+ Each of those arbitrary 16 waveforms can also be downloaded from the connected
+ PC host by the user.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The original manual claims that 
+\begin_inset Quotes eld
+\end_inset
+
+Long key press restores the original set of waveforms
+\begin_inset Quotes erd
+\end_inset
+
+ but I am unable to replicate that
 \end_layout
 
-\begin_layout Standard
-To quickly adjust the output waveform move the "*" indicator to the second
- row, and rotate "ADJUST" knob to rapidly switch the output waveform types.
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Subsubsection
 Setting CH1 frequency
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Setting-CH1-frequency"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-When the "*" indicator is in the first line, move the cursor to the appropriate
- decimal digit and turn the "ADJUST" knob to adjust the frequency of the
- output waveform.
+When the ✱ indicator is in the first line, use the left/right arrow keys
+ to move the cursor to the appropriate decimal digit and turn the "ADJUST"
+ knob to adjust the frequency of the output waveform.
 \end_layout
 
 \begin_layout Standard
@@ -3033,23 +3106,43 @@ When the "*" indicator is in the first line, move the cursor to the appropriate
 
 \begin_layout Subsubsection
 Setting CH1 output amplitude
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Setting-CH1-output"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Press the signal amplitude key, move the cursor to the appropriate decimal
- digit and turn the "ADJUST" knob to adjust the amplitude of the output
- waveform
+Press the signal amplitude key 
+\begin_inset Graphics
+	filename im/shift-pgDn.jpeg
+	height 1.2em
+
+\end_inset
+
+, move the cursor to the appropriate decimal digit and turn the "ADJUST"
+ knob to adjust the peak-to-peak signal amplitude of the output waveform,
+ as shown below:
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-The amplitude (05.00V in this case) refers to Vp-p, or peak to peak output
- signal voltage
+The original instructions have the picture as shown here, but recent instruments
+ show 
+\family typewriter
+\series bold
+*AMPL:
+\family default
+\series default
+ in the second line, which makes more sense.
 \end_layout
 
 \end_inset
 
-, as shown below:
+
 \end_layout
 
 \begin_layout Standard
@@ -3064,12 +3157,22 @@ The amplitude (05.00V in this case) refers to Vp-p, or peak to peak output
 \end_layout
 
 \begin_layout Standard
-In this range setting function mode, the maximum amplitude is 15V, and the
- minimum amplitude is 0.15V.
- The minimum step value is 0.01V (10mV).
- If the -20dB output attenuator is selected, the output signal a has maximum
- value of 1.500V, the minimum value of 0.015V, and the minimum step is 0.001V
- (1mV).
+In the default range setting function mode, the maximum amplitude is 15V,
+ and the minimum amplitude is 0.15V; the incremental step value is 0.01V (10mV).
+ 
+\end_layout
+
+\begin_layout Standard
+The -20dB output attenuator may be selected by pressing the 
+\begin_inset Graphics
+	filename im/ok.jpeg
+	height 1.2em
+
+\end_inset
+
+ button.
+ With attenuation, the output signal has a maximum value of 1.500V, the minimum
+ value of 0.015V, and the minimum step is 0.001V (1mV).
 \end_layout
 
 \begin_layout Standard
@@ -3085,12 +3188,18 @@ In this range setting function mode, the maximum amplitude is 15V, and the
 
 \begin_layout Subsubsection
 Setting CH1 voltage offset
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Setting-CH1-voltage"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Change the mode to bias adjustment, then move the "*" symbol to the second
- row, and move the cursor to the desired digit, then turn the "ADJUST" knob
- to adjust the offset parameter.
+Change the mode to bias adjustment, and move the cursor to the desired digit,
+ then turn the "ADJUST" knob to adjust the offset parameter.
 \end_layout
 
 \begin_layout Standard
@@ -3106,12 +3215,18 @@ Change the mode to bias adjustment, then move the "*" symbol to the second
 
 \begin_layout Subsubsection
 Setting CH1 duty cycle
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Setting-CH1-duty"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Change the mode to adjust the duty cycle, then move the "*" symbol to the
- second row, move the cursor to the desired decimal digit, then turn the
- "ADJUST" knob to adjust the duty cycle parameter.
+Change the mode to adjust the duty cycle, move the cursor to the desired
+ decimal digit, then turn the "ADJUST" knob to adjust the duty cycle parameter.
 \end_layout
 
 \begin_layout Standard
@@ -3127,18 +3242,28 @@ Change the mode to adjust the duty cycle, then move the "*" symbol to the
 
 \begin_layout Subsubsection
 Adjusting phase difference between channels
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Adjusting-phase-difference"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Change the mode to adjust the phase, then move the "*" symbol to switch
- to the second row, move the cursor to the desired decimal position , then
- turn the
+Change the mode to adjust the phase, move the cursor to the desired decimal
+ position , then turn the "ADJUST" knob to adjust the phase parameter.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The phase difference only makes sense if CH1 and CH2 output the same frequency.
 \end_layout
 
-\begin_layout Standard
-"ADJUST" knob to adjust the phase parameter.
- NOTE: the phase difference only makes sense if CH1 and CH2 output the same
- frequency.
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3154,12 +3279,18 @@ Change the mode to adjust the phase, then move the "*" symbol to switch
 
 \begin_layout Subsubsection
 Setting the display unit of frequency
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Setting-the-display"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Change the mode to adjust the frequency units of the display, then move
- the "*" symbol to the second row, and then select the frequency units of
- Hz, kHz, or MHz.
+Change the mode to adjust the frequency units of the display, and then select
+ the frequency units of Hz, kHz, or MHz.
 \end_layout
 
 \begin_layout Standard
@@ -3175,19 +3306,36 @@ Change the mode to adjust the frequency units of the display, then move
 
 \begin_layout Subsubsection
 Tracking function
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tracking-function"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Tracking function is used to synchronize the frequency of CH2 to CH1, and
- users can set the amplitude of the tracking and duty track.
- In the main interface, Select the tracking option as s shown below, then
- move the "*" symbol to the second row, and then select TRACE ON or OFF.
+Tracking function is used to synchronize the frequency of CH2 to CH1.
+ The amplitude and duty cycle can also be tracked.
+ 
+\end_layout
+
+\begin_layout Standard
+Select the tracking option, and then select TRACE ON or OFF with the 
+\begin_inset Graphics
+	filename im/ok.jpeg
+	height 1.2em
+
+\end_inset
+
+ button.
  When the tracking function is turned on, output frequency of channel CH2
  automatically tracks the frequency of channel CH1.
- Also, before turning tracing on, CH1 and CH2 channel amplitude is the same
- tracking feature is turned on CH1 and CH2 frequency automatic tracking;
- if the duty is the same as CH1 and CH2 are turned on after tracing CH1
- and CH2 account Empty than automatic tracking.
+ Also, if CH1 and CH2 amplitude is the same before turning tracing on, amplitude
+ tracking feature is turned on.
+ If the duty cycle is the same in both channels, CH1 and CH2 duty cycle
+ will also be automatically tracked.
 \end_layout
 
 \begin_layout Standard
@@ -3203,12 +3351,19 @@ Tracking function is used to synchronize the frequency of CH2 to CH1, and
 
 \begin_layout Subsubsection
 External signal input port selection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:External-signal-input"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Select the input port selection mode, then move the "*" symbol to the second
- row, and switch the input port selection to Ext.IN for front panel AC signal
- input, or to TTL.IN for rear panel TTL input.
+Select the input port selection mode, and switch the input port selection
+ to Ext.IN for front panel AC signal input, or to TTL.IN for rear panel TTL
+ input.
 \end_layout
 
 \begin_layout Standard
@@ -3224,6 +3379,13 @@ Select the input port selection mode, then move the "*" symbol to the second
 
 \begin_layout Subsubsection
 Measurement function
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Measurement-function"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3231,39 +3393,87 @@ Several parameters of the input signal can be measured.
 \end_layout
 
 \begin_layout Itemize
-Choose the measurement function selection, then move the "*" symbol to the
- second row, and then click the button to switch the measured quantity:
+Choose the measurement mode selection, and then turn the knob or click the
+ 
+\begin_inset Graphics
+	filename im/ok.jpeg
+	height 1.2em
+
+\end_inset
+
+ button to switch the measured quantity:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-FREQ.
- (Frequency), 
+\begin_layout Description
+
+\family typewriter
+FREQ 
+\series bold
+F=
+\family default
+\series default
+ frequency 
 \end_layout
 
-\begin_layout Itemize
-COUNTR (counting function), 
+\begin_layout Description
+
+\family typewriter
+COUNTR 
+\series bold
+C=
+\family default
+\series default
+ count 
 \end_layout
 
-\begin_layout Itemize
-POS-PW (positive pulse), 
+\begin_layout Description
+
+\family typewriter
+POS-PW 
+\series bold
+H=
+\family default
+\series default
+ positive (logical high) period
 \end_layout
 
-\begin_layout Itemize
-NEG-PW (negative pulse), 
+\begin_layout Description
+
+\family typewriter
+NEG-PW 
+\series bold
+L=
+\family default
+\series default
+ negative (logical low) period
 \end_layout
 
-\begin_layout Itemize
-PERIOD (period), 
+\begin_layout Description
+
+\family typewriter
+PERIOD 
+\series bold
+T=
+\family default
+\series default
+ time period 
 \end_layout
 
-\begin_layout Itemize
-DUTY (duty cycle)
+\begin_layout Description
+
+\family typewriter
+DUTY 
+\series bold
+DUTY=
+\family default
+\series default
+ duty cycle (percent)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Select gate time selection page, and choose one of available gate times:
+Proceed to gate time selection menu, and choose one of available gate times:
  10s, 1s, 0.1s, or 0.01s.
  Different gate times trade off frequency measurement accuracy and measurement
  speed.
@@ -3281,11 +3491,19 @@ Select gate time selection page, and choose one of available gate times:
 \end_layout
 
 \begin_layout Itemize
-The instrument display will show input measurement results.
+Proceed to next menu; the instrument display will show input measurement
+ results.
 \end_layout
 
 \begin_layout Subsubsection
 Sweep function
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Sweep-function"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -3323,9 +3541,8 @@ Next, select the final sweep frequency function, and then adjust the final
 \end_layout
 
 \begin_layout Itemize
-Next, select the sweep time setting mode, and then move the "*" indicator
- to the second row, and rotate "ADJUST" knob to adjust the sweep time between
- 1s and 600s, e.g.
+Next, select the sweep time setting mode, and rotate "ADJUST" knob to adjust
+ the sweep time between 1s and 600s, e.g.
  to 10s as shown below:
 \end_layout
 
@@ -3346,17 +3563,25 @@ Next, enter the sweep mode selection screen, and choose between LINE (linear
 \end_layout
 
 \begin_layout Itemize
-Finally, enter the sweep control page, then turn on or turn off sweep function.
+Finally, enter the sweep control page, then press the OK key to turn on
+ or turn off sweep function.
+ Subsequent OK button presses will pause and continue the scan.
 \end_layout
 
 \begin_layout Subsubsection
 Parameter storage and loading
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Parameter-storage-and"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-To save parameters for later use, select the parameter save function, and
- then move the "*" indicator to the second row, then rotate "ADJUST" knob
- to adjust the save location.
+To save parameters for later use, select the parameter save function, then
+ rotate "ADJUST" knob to adjust the save location.
  This instrument has a total of 10 parameter storage locations, M0-M9.
  On power on, the instrument loads parameter set M0.
 \end_layout
@@ -3373,9 +3598,9 @@ To save parameters for later use, select the parameter save function, and
 \end_layout
 
 \begin_layout Itemize
-To restore saved parameters, chose the parameter load function, then move
- the "*" indicator to the second row, and rotate the "ADJUST" knob to adjust
- the location to one of the 10 available saved sets, M0-M9.
+To restore saved parameters, chose the parameter load function, and rotate
+ the "ADJUST" knob to adjust the location to one of the 10 available saved
+ sets, M0-M9.
  On power on, the instrument loads parameter set M0.
 \end_layout
 
@@ -3421,8 +3646,8 @@ The working temperature is -10..50 ℃, Storage temperature -20..70 ℃, in a dr
 \begin_layout Enumerate
 Do not attempt to disassemble the equipment, destroying the package will
  void the warranty.
- There are no user-serviceable parts; repairs are to be done only by authorized
- repair outlets or by returning the item to factory.
+ There are no user-serviceable parts inside; repairs are to be done only
+ by authorized repair outlets or by returning the item to the factory.
 \end_layout
 
 \begin_layout Enumerate
@@ -3444,7 +3669,7 @@ Do not move the instrument to avoid severe irreparable damage to the internal
 
 \begin_layout Enumerate
 If the above conditions were observed, and the instrument still does not
- work after cycling the power off and on, please contact your supplier!
+ work after cycling the power off and on, please contact your supplier.
 \end_layout
 
 \begin_layout Section
