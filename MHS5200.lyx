@@ -71,7 +71,7 @@
 \begin_body
 
 \begin_layout Title
-OPERATING MANUAL 
+OPERATING MANUAL
 \begin_inset Newline newline
 \end_inset
 
@@ -114,14 +114,6 @@ May 2015
 \color none
 Zhengzhou Ming Wo Electronic Technology Co., Ltd.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -179,108 +171,29 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Unpacking
+Introduction
 \end_layout
 
 \begin_layout Standard
-When you get a new MHS-5200A Series dual-channel DDS signal generator, it
- is recommended that you follow these steps to inspect the instrument.
-\end_layout
-
-\begin_layout Enumerate
-Check for transportation damage to the shipping box and packing materials.
- If there is serious damage, keep them until the machine and accessories
- have passed the acceptance test.
-\end_layout
-
-\begin_layout Enumerate
-Check the complete contents of the box.
- If the contents do not match the following list or if the instrument is
- damaged, contact your dealer or manufacturer.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-MHS-5200A Series dual-channel DDS signal generator
-\end_layout
-
-\begin_layout Itemize
-5VDC Power Adapter
-\end_layout
-
-\begin_layout Itemize
-USB cable
-\end_layout
-
-\begin_layout Itemize
-Signal coaxial cable, 2pc
-\end_layout
-
-\begin_layout Itemize
-User Manual and Windows software on CD
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Check the instrument for damage.
- If it is damaged or not working properly, or fails performance tests, please
- contact your dealer or manufacturer.
-\end_layout
-
-\begin_layout Section
-Overview
-\end_layout
-
-\begin_layout Subsection
-Instrument introduction
-\end_layout
-
-\begin_layout Standard
-MHS-5200A series instruments use large scale integrated circuits: a high-speed
- FPGA and a microcontroller unit.
- The internal circuitry uses surface mount technology for greatly enhanced
- noise immunity and service life.
+MHS-5200A series Direct Digital Synthesis (DDS) instrument generates analog
+ and digital signals in a 0..25MHz frequency range.
+ It can also measure various waveform parameters.
+ It provides a great test and measurement solution to electronic engineers
+ and technicians in teaching and research laboratories, and production facilitie
+s.
  
 \end_layout
 
 \begin_layout Standard
-Display interface uses a 16x2 character LCD display, divided into two lines.
+This instrument is designed around two large scale integrated circuits:
+ a high-speed FPGA and a microcontroller unit.
+ The internal circuitry uses surface mount technology for greatly enhanced
+ noise immunity and service life.
+ Display interface uses a 16x2 character LCD display, divided into two lines.
  The top line shows the current frequency, while the following line displays
  additional parameters and settings, corresponding to the front panel key
  selections.
  
-\end_layout
-
-\begin_layout Standard
-This instrument performs signal generation, waveform scanning, as well as
- parameter measurement.
- It provides a great test and measurement solution to electronic engineers
- and technicians in teaching and research laboratories and production facilities.
-\end_layout
-
-\begin_layout Subsection
-Model description
-\end_layout
-
-\begin_layout Standard
-This series of instruments includes four models, differentiated by the maximum
- frequency of the output sine wave:
-\end_layout
-
-\begin_layout Description
-MHS-5200-06M sinusoidal signals at frequencies up to 6MHz
-\end_layout
-
-\begin_layout Description
-MHS-5200-12M sinusoidal signals at frequencies up to 12MHz
-\end_layout
-
-\begin_layout Description
-MHS-5200-20M sinusoidal signals at frequencies up to 20MHz
-\end_layout
-
-\begin_layout Description
-MHS-5200-25M sinusoidal signals at frequencies up to 25MHz
 \end_layout
 
 \begin_layout Subsection
@@ -333,16 +246,16 @@ Four variable phase difference TTL outputs
 \begin_layout Itemize
 Measurement capability.
  Possible measurements are: frequency, period, positive and negative pulse
- width, duty cycle and counting function;
+ width, duty cycle and counting function
 \end_layout
 
 \begin_layout Itemize
 Four optional frequency measurement gate times, which strike a balance between
- speed and accuracy;
+ speed and accuracy
 \end_layout
 
 \begin_layout Itemize
-All parametric EQ calibration can be performed by internal procedures;
+All parametric EQ calibration can be performed by internal procedures
 \end_layout
 
 \begin_layout Itemize
@@ -360,7 +273,32 @@ t
 \begin_layout Itemize
 The instrument can be equipped with an additional power module, to enable
   the signal output amplitude of 30Vpp, and the maximum output current of
-  1A;
+  1A
+\end_layout
+
+\begin_layout Subsection
+Model description
+\end_layout
+
+\begin_layout Standard
+This series of instruments includes four models, differentiated by the maximum
+ frequency of the output sine wave:
+\end_layout
+
+\begin_layout Description
+MHS-5200-06M sinusoidal signals at frequencies up to 6MHz
+\end_layout
+
+\begin_layout Description
+MHS-5200-12M sinusoidal signals at frequencies up to 12MHz
+\end_layout
+
+\begin_layout Description
+MHS-5200-20M sinusoidal signals at frequencies up to 20MHz
+\end_layout
+
+\begin_layout Description
+MHS-5200-25M sinusoidal signals at frequencies up to 25MHz
 \end_layout
 
 \begin_layout Subsection
@@ -2861,14 +2799,63 @@ name "fig:display"
 \end_layout
 
 \begin_layout Standard
-The ✱ symbol indicates which values will be modified by they arrow keys
- and the adjustment knob.
+The ✱ symbol indicates which values will be modified by the arrow keys and
+ the adjustment knob.
  In multi-digit parameter values, the current selected digit is indicated
  by an underline.
 \end_layout
 
 \begin_layout Section
 Operating Instructions
+\end_layout
+
+\begin_layout Subsection
+Unpacking
+\end_layout
+
+\begin_layout Standard
+When you get a new MHS-5200A Series dual-channel DDS signal generator, it
+ is recommended that you follow these steps to inspect the instrument.
+\end_layout
+
+\begin_layout Enumerate
+Check for transportation damage to the shipping box and packing materials.
+ If there is serious damage, keep them until the machine and accessories
+ have passed the acceptance test.
+\end_layout
+
+\begin_layout Enumerate
+Check the complete contents of the box.
+ If the contents do not match the following list or if the instrument is
+ damaged, contact your dealer or manufacturer.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+MHS-5200A Series dual-channel DDS signal generator
+\end_layout
+
+\begin_layout Itemize
+5VDC Power Adapter
+\end_layout
+
+\begin_layout Itemize
+USB cable
+\end_layout
+
+\begin_layout Itemize
+Signal coaxial cable, 2pc
+\end_layout
+
+\begin_layout Itemize
+User Manual and Windows software on CD
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Check the instrument for damage.
+ If it is damaged or not working properly, or fails performance tests, please
+ contact your dealer or manufacturer.
 \end_layout
 
 \begin_layout Subsection
@@ -3625,6 +3612,22 @@ Calibration function is performed at the factory.
 \end_layout
 
 \begin_layout Section
+Instrument control software
+\end_layout
+
+\begin_layout Standard
+The instrument is provided with large and somehow unwieldy Windows control
+ software.
+ An alternative portable PyQt control program 
+\family typewriter
+\series bold
+mhdds
+\family default
+\series default
+ will be developed.
+\end_layout
+
+\begin_layout Section
 Care and maintenance
 \end_layout
 
@@ -3857,7 +3860,7 @@ status open
 
 \begin_layout Plain Layout
 \noindent
-This is a copy of Al Williams' work at https://github.com/wd5gnr/mhs5200a
+This information is from Al Williams' work at https://github.com/wd5gnr/mhs5200a
  
 \end_layout
 
@@ -3874,8 +3877,8 @@ ary, but as of July 2015 this is the only known description.
 \end_layout
 
 \begin_layout Standard
-MHS­5200A shows up as normal serial port (e.g., /dev/ttyUSBx on Linux), The
- communication settings are:
+MHS­5200A shows up as normal serial port (e.g., /dev/ttyUSBx on Linux, COM
+ port on Windows), The communication settings are:
 \end_layout
 
 \begin_layout Itemize
@@ -3887,7 +3890,13 @@ data formatting 8/n/1
 \end_layout
 
 \begin_layout Itemize
-hardware handshake 
+hardware handshake
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+n Unix line terminator, but the program also accepts the CRLF pair
 \end_layout
 
 \begin_layout Standard
@@ -3901,7 +3910,8 @@ Manufacturer-provided software initiates the communication with the device
 \end_layout
 
 \begin_layout Description
-:r1c returns :r1c323 (current observed firmware 3.23)
+:r1c returns :r1c323 (corresponding to firmware 3.23; other versions have
+ been observed up to v.4.10)
 \end_layout
 
 \begin_layout Description
@@ -3918,7 +3928,7 @@ If you get an echo of <CRLF>### that probably is an error indication
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="49" columns="4">
+<lyxtabular version="3" rows="50" columns="4">
 <features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -5261,7 +5271,7 @@ Read sweep state
 \begin_inset Text
 
 \begin_layout Plain Layout
-:aNX
+:aXN
 \end_layout
 
 \end_inset
@@ -5270,7 +5280,7 @@ Read sweep state
 \begin_inset Text
 
 \begin_layout Plain Layout
-Set arb data for N
+Set arbitrary waveform data
 \end_layout
 
 \end_inset
@@ -5288,9 +5298,13 @@ ok
 \begin_inset Text
 
 \begin_layout Plain Layout
-1024 samples in 16 slices,64 samples per slice.
- N=0...F for each slice.
- Each sample is 0 to 255 with 125 as the nominal center
+There are 16 arbitrary waveforms, X=0..F.
+\end_layout
+
+\begin_layout Plain Layout
+Each one is described by 1024 samples in 16 slices, numbered N=0..F.
+ Each slice contains 64 comma-separated 8-bit samples valued 0..255 with 125
+ as the nominal center.
 \end_layout
 
 \end_inset
@@ -5639,6 +5653,44 @@ ok
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:s5tN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Set sweep time
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ok
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N is sweep time
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -5798,10 +5850,6 @@ Read reset status
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 Functions still unknown: 
 \end_layout
 
@@ -5811,10 +5859,6 @@ Reading back arbitrary storage (if even possible)
 
 \begin_layout Itemize
 Setting or loading stored setups 
-\end_layout
-
-\begin_layout Itemize
-Sweep time setting (not sure why I missed this) 
 \end_layout
 
 \end_body
