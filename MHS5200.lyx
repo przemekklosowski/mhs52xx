@@ -3774,6 +3774,27 @@ Instrument internals
 \end_layout
 
 \begin_layout Standard
+The instrument is implemented with a digital sequencer implemented with
+ a Lattice FPGA, driving a R-2R resistor ladder DAC.
+ The circuitry is managed by a ST Micro 8-bit microcontroller.
+ The analog front end has been reverse-engineered
+\begin_inset CommandInset citation
+LatexCommand cite
+key "craig-analogzoo-MHS-teardown"
+
+\end_inset
+
+ and some improvements have been suggested
+\begin_inset CommandInset citation
+LatexCommand cite
+key "craig-analogzoo-MHS-fixing"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -3830,7 +3851,37 @@ MHS-5200A main circuit board
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename im/MHS5200-Channel-1.svg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Analog front end circuitry
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -3843,37 +3894,18 @@ MHS-5200A main circuit board
 MHS-5200A serial protocol
 \end_layout
 
-\begin_layout Quotation
-\noindent
-\begin_inset Box Shadowbox
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\noindent
-This information is from Al Williams' work at https://github.com/wd5gnr/mhs5200a
- 
-\end_layout
-
-\begin_layout Plain Layout
+\begin_layout Standard
 \noindent
 The manufacturer claims that the communication protocol is open and non-propriet
-ary, but as of July 2015 this is the only known description.
- 
-\end_layout
+ary, but as of July 2015 the only known description is derived by reverse-engine
+ering
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AW"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -3920,10 +3952,6 @@ Manufacturer-provided software initiates the communication with the device
 
 \begin_layout Description
 :r0c returns :r0c52A (model #? 5200A?) 
-\end_layout
-
-\begin_layout Standard
-If you get an echo of <CRLF>### that probably is an error indication
 \end_layout
 
 \begin_layout Standard
@@ -5298,13 +5326,22 @@ ok
 \begin_inset Text
 
 \begin_layout Plain Layout
-There are 16 arbitrary waveforms, X=0..F.
-\end_layout
+16 arbitrary waveforms, X=0..F.
+\begin_inset Foot
+status open
 
 \begin_layout Plain Layout
-Each one is described by 1024 samples in 16 slices, numbered N=0..F.
+Each of 16 arbitrary waveforms stored in MHS-5200A memory is described by
+ 1024 samples.
+ The data for the X-th waveformis sent by the :aXN command, by specifying
+ 16 slices, numbered N=0..F.
  Each slice contains 64 comma-separated 8-bit samples valued 0..255 with 125
  as the nominal center.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5850,6 +5887,10 @@ Read reset status
 \end_layout
 
 \begin_layout Standard
+If you get an echo of <CRLF>### that probably is an error indication.
+\end_layout
+
+\begin_layout Standard
 Functions still unknown: 
 \end_layout
 
@@ -5859,6 +5900,17 @@ Reading back arbitrary storage (if even possible)
 
 \begin_layout Itemize
 Setting or loading stored setups 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "MHSbiblio"
+options "unsrt"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
